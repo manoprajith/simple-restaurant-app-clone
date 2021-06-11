@@ -1,0 +1,171 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+    font-weight: 900;
+    font-size: 10px;
+    letter-spacing: -1px;
+}
+
+body {
+    margin: 50px;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"), linear-gradient( 110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu-container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    background-color: #ffc600;
+    padding-top: 10px;
+    height: 38px;
+    width: 276px;
+    text-align: center;
+}
+
+.menu-items a {
+    font-size: 20px;
+    color: #272727;
+    text-decoration: none;
+}
+
+.bg-img {
+    margin-top: 20px;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    width: 960px;
+    height: 400px;
+}
+
+.prc-container {
+    position: absolute;
+    top: 150px;
+    left: 1035px;
+    height: 400px;
+    width: 450px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.prc-item-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 435px;
+    background-color: #ffc600;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.prc-item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 435px;
+    background-color: #ffc600;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.prc-item-1 span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.prc-item-2 span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.list-container {
+    margin-top: 19px;
+    height: 190px;
+    display: grid;
+    grid-template-columns: 341px 341px 341px 341px;
+    column-gap: 19px;
+}
+
+.list-item {
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.list-item h3 {
+    margin-top: -1px;
+}
+
+.list-item p {
+    color: #8a8681;
+}
+
+.list-item span {
+    font-size: 50px;
+}
+
+.feature-container {
+    position: absolute;
+    margin-top: 20px;
+    height: 390px;
+    width: 142em;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 450px auto;
+}
+
+.img {
+    margin-left: 50px;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+}
+
+.content {
+    position:relative;
+    top:100px;
+    text-align: left;
+    font-size: 11px;
+}
+
+.content h2{
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+button{
+    background-color: #ffc600;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+}
+
+.inst{
+    color: #272727;
+    position:absolute;
+    top: 160%;
+    left: 47%;
+    font-size: 17px;
+}
+
+
+
+.gallery{
+    position: absolute;
+    margin-top: 500px;
+    display: grid;
+    grid-template-columns:220px 220px 220px 220px 220px 220px;
+    grid-gap: 20px;
+    
+}
